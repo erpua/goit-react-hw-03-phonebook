@@ -39,7 +39,8 @@ INSTALLATIONS:
 - npm install --save-dev gh-pages
 - in package.json => - scripts => "homepage":
   "https://myusername.github.io/my-app"add to package.json => change to
-  =>"homepage": "https://erpua.github.io/goit-react-hw-01-components";
+  =>"homepage": "https://erpua.github.io/goit-react-hw-03-phonebook" => after
+  prop "private";
 - in package.json => add scripts: "predeploy": "npm run build", "deploy":
   "gh-pages -d build" => "scripts": { "start": "react-scripts start", "build":
   "react-scripts build", "test": "react-scripts test", "eject": "react-scripts
@@ -50,4 +51,4 @@ INSTALLATIONS:
 
 EXTRAS:
 
-- In PureComponent => method shouldComponentUpdate is automatic underground
+- In PureComponent => method shouldComponentUpdate compiles automatically
