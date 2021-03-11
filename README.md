@@ -47,3 +47,7 @@ INSTALLATIONS:
 - git add . / commit / push
 - npm run deploy
 - add repository root to GitHub Website link
+
+EXTRAS:
+
+- In PureComponent => method shouldComponentUpdate is automatic underground
